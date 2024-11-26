@@ -1,0 +1,43 @@
+/* Styling the promotions section */
+.promotions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Styling individual promotion cards */
+.promotion-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Adding hover effect to promotion cards */
+.promotion-card:hover {
+    background-color: #f0f8ff;
+    transform: scale(1.05);
+}
+
+/* Styling images inside the promotion cards */
+.promotion-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Styling text inside the promotion cards */
+.promotion-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
